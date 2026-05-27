@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npx turbo build --filter=@dmaximboi/web && node -e \"const fs=require('fs');fs.cpSync('apps/web/dist','dist',{recursive:true,force:true})\"",
-  "outputDirectory": "dist",
+  "installCommand": "cd apps/web && npm install",
+  "buildCommand": "cd apps/web && npm run build",
+  "outputDirectory": "apps/web/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
