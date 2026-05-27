@@ -2,7 +2,7 @@
   "name": "dmaximboi",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "turbo build --filter=@dmaximboi/web && node -e \"require('fs').cpSync('apps/web/dist','dist',{recursive:true,force:true})\"",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,md}\""
