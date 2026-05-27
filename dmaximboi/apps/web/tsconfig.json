@@ -1,0 +1,11 @@
+{
+  "extends": "@dmaximboi/config-ts/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@dmaximboi/ui": ["../../packages/ui/src/index.ts"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}

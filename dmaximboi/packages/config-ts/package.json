@@ -1,0 +1,6 @@
+{
+  "name": "@dmaximboi/config-ts",
+  "version": "0.0.1",
+  "private": true,
+  "files": ["tsconfig.json", "tsconfig.app.json"]
+}
