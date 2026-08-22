@@ -1,0 +1,22 @@
+{
+  "name": "maxim-nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --port 3000 --host 127.0.0.1",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "lucide-vue-next": "0.468.0",
+    "nodemailer": "6.9.16",
+    "nuxt": "3.16.2",
+    "vue": "3.5.13",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "6.4.17",
+    "typescript": "5.7.2"
+  }
+}

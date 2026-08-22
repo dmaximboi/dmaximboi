@@ -1,0 +1,16 @@
+{
+  "name": "maxiM",
+  "short_name": "maxiM",
+  "description": "Full stack developer, chemistry graduate, and STEM educator. Open to work worldwide.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0704",
+  "theme_color": "#0a0704",
+  "lang": "en",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

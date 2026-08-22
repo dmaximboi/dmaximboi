@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="maxiM">
+  <rect width="512" height="512" rx="96" fill="#0a0704"/>
+  <rect x="18" y="18" width="476" height="476" rx="82" fill="none" stroke="#c8860a" stroke-opacity="0.35" stroke-width="3"/>
+  <text x="256" y="310" text-anchor="middle" font-family="Georgia, 'Bodoni Moda', serif" font-size="168" font-weight="700" fill="#e8d5b0" letter-spacing="-8">maxi<tspan font-style="italic" fill="#f0a830">M</tspan></text>
+</svg>

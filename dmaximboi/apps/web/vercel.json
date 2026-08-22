@@ -1,9 +1,0 @@
-{
-  "buildCommand": "cd ../.. && npx turbo build --filter=@dmaximboi/web",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": "vite",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
